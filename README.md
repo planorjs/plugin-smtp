@@ -6,10 +6,10 @@ Planor smtp plugin.
 import PlanorServiceSmtp from '../src/index.js'
 
 const credentials = {
-  host: 'mail.gandi.net',
+  host: 'mail.test.net',
   port: '465',
-  username: 'destek@kolilazim.com',
-  password: 'mrB.6721'
+  username: 'test@test.com',
+  password: '----'
 }
 
 const service = new PlanorServiceSmtp(credentials)
