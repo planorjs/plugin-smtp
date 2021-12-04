@@ -3,7 +3,7 @@ Planor smtp plugin.
 
 ## Usage
 ```js
-import PlanorServiceSmtp from '../src/index.js'
+import PlanorServiceSmtp from '@planorjs/plugin-smtp'
 
 const credentials = {
   host: 'mail.test.net',
