@@ -14,7 +14,7 @@ babelPlugins.push(['@babel/plugin-transform-runtime', {
 }])
 
 const externals = [
-  /@babel\/runtime/, /core-js/, /^planor$/, /smtp-client/
+  /@babel\/runtime/, /core-js/, /planorjs\/core/, /smtp-client/
 ]
 
 module.exports = [
